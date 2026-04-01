@@ -1,1 +1,84 @@
+/* ================= ESTILOS DEL HEADER ================= */
+.tech-header {
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
 
+.tech-header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.tech-header .logo h1 span {
+    color: #38bdf8; /* Azul claro tecnológico */
+}
+
+.tech-header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.tech-header .nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.tech-header .nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* ================= ESTILOS DEL FOOTER ================= */
+.tech-footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 2rem 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid #1e293b;
+    margin-top: auto; 
+    width: 100%;
+}
+
+.tech-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.tech-footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.tech-footer .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.tech-footer .footer-links a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.tech-footer .footer-links a:hover {
+    color: #f8fafc;
+}
