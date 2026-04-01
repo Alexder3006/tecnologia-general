@@ -1,0 +1,31 @@
+/* Variables de colores tech */
+:root {
+    --bg-color: #0b0e14;
+    --text-color: #e0e0e0;
+    --accent-color: #00f2ff; /* Cian neón */
+    --card-bg: #161b22;
+}
+
+/* Modo oscuro por defecto */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Diseño Responsive (Grid/Flexbox) */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1-fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 2rem;
+    background: var(--card-bg);
+    border-bottom: 2px solid var(--accent-color);
+}
